@@ -3,8 +3,31 @@
 	"EngineAssociation": "4.13",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ECHACKS2016",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OculusInput",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusLibrary",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusRift",
+			"Enabled": false
+		}
+	],
 	"TargetPlatforms": [
-		"PS4",
 		"WindowsNoEditor"
 	]
 }
